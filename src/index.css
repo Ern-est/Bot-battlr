@@ -2,6 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: burlywood;
+  text-align: center;
+  font-size: 25px;
+
+}
+body h1{
+  color: rgb(81, 255, 0);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .text-wrap {
@@ -12,6 +20,8 @@ body {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .ui.grid > .row.bot-army-row {

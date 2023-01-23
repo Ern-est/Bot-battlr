@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import YourBotArmy from "./YourBotArmy";
 import BotCollection from "./BotCollection";
 
-function BotsPage() {
+function BotPage() {
   const [bots, setBots] = useState([]);
   const [yourBots, setYourBots] = useState([]);
 
@@ -45,4 +45,4 @@ function BotsPage() {
   );
 }
 
-export default BotsPage;
+export default BotPage;

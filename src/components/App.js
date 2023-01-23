@@ -1,11 +1,18 @@
 import React from "react";
-import BotsPage from "./BotsPage";
+import BotPage from "./BotPage";
 
 function App() {
   return (
-    <div className="App">
-      <BotsPage />
+    <div>
+        <div>
+            <h1>Robot Army Collection!
+            </h1>
+        </div>
+        <div className="App">
+      <BotPage />
     </div>
+    </div>
+    
   );
 }
 

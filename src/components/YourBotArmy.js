@@ -22,7 +22,6 @@ function YourBotArmy({ yourBots, setYourBots, deleteBot }) {
               />
             );
           })}
-          Your Bot Army
         </div>
       </div>
     </div>
